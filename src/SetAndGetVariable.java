@@ -9,6 +9,7 @@ public class SetAndGetVariable {
 
         int c = 5;
         int c_1 = 50;
+        int c_2 = 5;
 
         int d = 7;
         int d_1 = 30;
@@ -16,7 +17,7 @@ public class SetAndGetVariable {
         if (b == 3) {
             a = a_1;
         } else {
-            b = c;
+            c = c_2;
         }
 
         if (d != 9) {
