@@ -3,6 +3,8 @@ public class Main {
         String name = "Leedonghwan";
         int age = 24;
         System.out.println(name + " " + age);
+        name = "LEE";
+        System.out.println();
         // return 0;
     }
 }
