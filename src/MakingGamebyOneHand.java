@@ -7,8 +7,8 @@ public class MakingGamebyOneHand {
         b = a; // b 1
         a = c; // a 2
         c = b; // c 1
-        b = "0"; // 
-        System.out.println(a + b + c);
+        b = "0";
+        System.out.println(a+' '+b+' '+c);
 
     }
 }
