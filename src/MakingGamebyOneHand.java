@@ -4,13 +4,11 @@ public class MakingGamebyOneHand {
         String b = "0";
         String c = "2";
         System.out.println(a+' '+b+' '+c);
-        a = "2";
-        b = "1";
-        c = "0";
-        System.out.println(a+' '+b+' '+c);
-        a = "2";
-        b = "0";
-        c = "1";
-        System.out.println(a+' '+b+' '+c);
+        b = a; // b 1
+        a = c; // a 2
+        c = b; // c 1
+        b = "0"; // 
+        System.out.println(a + b + c);
+
     }
 }
