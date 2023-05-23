@@ -9,7 +9,7 @@ public class SetAndGetVariable {
 
         int c = 5;
         int c_1 = 50;
-        
+
         int d = 7;
         int d_1 = 30;
 
@@ -30,9 +30,9 @@ public class SetAndGetVariable {
         } else {
             d = d_1;
         }
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
+        System.out.println(a); // a = 10
+        System.out.println(b); // b = 5
+        System.out.println(c); // c = 50
+        System.out.println(d); // d = 7
     }
 }
