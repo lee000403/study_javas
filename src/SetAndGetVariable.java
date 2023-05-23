@@ -2,11 +2,14 @@ public class SetAndGetVariable {
     public static void main(String[] args) {
         int a = 1;
         int a_1 = 10;
+
         int b = 3;
         int b_1 = 5;
         int b_2 = 200;
+
         int c = 5;
         int c_1 = 50;
+        
         int d = 7;
         int d_1 = 30;
 
