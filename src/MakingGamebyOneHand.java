@@ -4,9 +4,9 @@ public class MakingGamebyOneHand {
         String b = "0";
         String c = "2";
         System.out.println(a+' '+b+' '+c);
-        a = "0";
+        a = "2";
         b = "1";
-        c = "2";
+        c = "0";
         System.out.println(a+' '+b+' '+c);
         a = "2";
         b = "0";
