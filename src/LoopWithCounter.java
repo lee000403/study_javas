@@ -5,5 +5,6 @@ public class LoopWithCounter {
             System.out.println(num);
             num = num + 1;
         }
+        // return 0;
     }
 }
