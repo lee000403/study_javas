@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class LoopWhiles {
     public static void main(String[] args) {
         // while (condition) {
