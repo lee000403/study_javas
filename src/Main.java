@@ -70,18 +70,5 @@ public class Main {
         // System.out.println(a4);
         // System.out.println(a5);
 
-        Scanner in = new Scanner(System.in);
-        System.out.print("정수 개수 입력 : ");
-        int number = in.nextInt();
-        
-        ArrayList<String> arr = new ArrayList<String>();
-        for (int i=1; i<=number; i++) {
-            String a = in.next();
-            arr.add(a);
-            Integer.valueOf(a);
-
-            System.out.println(arr);
-        }
-
     }
 }
