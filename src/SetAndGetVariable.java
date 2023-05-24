@@ -28,12 +28,15 @@ public class SetAndGetVariable {
 
         if (a == 10) {
             c = c_1;
-        } else {
+        }
+        else {
             d = d_1;
         }
+
         System.out.println(a); // a = 10
         System.out.println(b); // b = 5
         System.out.println(c); // c = 50
         System.out.println(d); // d = 7
+
     }
 }
