@@ -6,6 +6,7 @@ public class PollsWithOutMethod {
         Scanner in = new Scanner(System.in);
         System.out.print("이름을 입력하세요 : ");
         String name = in.nextLine();
+        in.close();
         System.out.println("이름) " + name);
 
         int [] select_number = {0, 0, 0, 0};

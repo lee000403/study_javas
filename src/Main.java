@@ -1,6 +1,4 @@
-import java.util.*;
 
-import javax.sound.sampled.AudioFileFormat.Type;
 public class Main {
     public static void main(String[] args) {
         // refer : https://www.acmicpc.net/problem/2557
