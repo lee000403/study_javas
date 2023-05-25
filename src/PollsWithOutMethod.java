@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WebArray {
+public class PollsWithOutMethod {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
@@ -22,19 +22,21 @@ public class WebArray {
                 System.out.print(title[0][arr_number]);
             }
             System.out.println();
+            System.out.println();
             System.out.print("답) ");
             int select_scanner = in.nextInt();
             select_number[arr_line-1] = select_scanner;
             if (arr_line == title.length-1){
                 break;
             }
+            System.out.println();
         }
 
         System.out.println("-------설문 종료-------");
         System.out.println();
         System.out.println("-------설문 결과-------");
         for (int end=0; end<title.length-1; end++) {
-            System.out.print((end+1) + "." + select_number[end] + ", ");
+            System.out.print((end+1) + "." + "(" + select_number[end] + ")" + ", ");
         }
         
 
