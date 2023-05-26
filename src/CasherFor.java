@@ -20,6 +20,7 @@ public class CasherFor {
                     System.out.println("100 초과 0원 적용");
                 }
                 else if (price == 0){
+                    price_sum[count] = price;
                     break;
                 }
             }
