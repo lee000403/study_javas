@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class CasherFor {
     public static void main(String[] args) {
         try {
+            
             Scanner in = new Scanner(System.in);
-            int[] price_sum = {0, 0, 0, 0, 0};
-            int sum = 0;
+            int[] price_sum = {0, 0, 0, 0, 0}; // 총 합계 담을 배열 생성
+            int sum = 0; // 합계 0으로 선언
             System.out.println("----- 계산 시작 -----");
-
+            // 계산 시작 부분
             for (int count = 0; count < price_sum.length; count = count + 1){
                 System.out.print((count+1)+" 번째 가격 : ");
                 int price = in.nextInt();
@@ -24,9 +25,11 @@ public class CasherFor {
                     break;
                 }
             }
+            // 합계 담은 배열 총 계산
             for (int col = 0; col < price_sum.length; col = col + 1) {
                 sum = sum + price_sum[col];
             }
+            // 총액 계산
             System.out.println("----- 담은 총합 -----");
             System.out.println("합계 : " + sum);
             System.out.println();
