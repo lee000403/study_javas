@@ -6,7 +6,6 @@ public class PollsWithOutMethod {
         Scanner in = new Scanner(System.in);
         System.out.print("이름을 입력하세요 : ");
         String name = in.nextLine();
-        in.close();
         System.out.println("이름) " + name);
 
         int [] select_number = {0, 0, 0, 0};
@@ -17,7 +16,7 @@ public class PollsWithOutMethod {
                 { "3.교수는 강의 내용에 대해 전문적 지식이 있었는가?" },
                 { "4.강의 진행 속도는 적절하였는가?"} 
             };
-        for (int arr_line=1; arr_line<=title.length; arr_line++) {
+        for (int arr_line=1; arr_line<title.length; arr_line++) {
             System.out.println(title[arr_line][0]);
             for (int arr_number=0; arr_number<title[0].length; arr_number++) {
                 System.out.print(title[0][arr_number]);
@@ -27,9 +26,6 @@ public class PollsWithOutMethod {
             System.out.print("답) ");
             int select_scanner = in.nextInt();
             select_number[arr_line-1] = select_scanner;
-            if (arr_line == title.length-1){
-                break;
-            }
             System.out.println();
         }
 
