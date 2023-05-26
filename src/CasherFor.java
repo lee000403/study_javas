@@ -14,15 +14,18 @@ public class CasherFor {
                 int price = in.nextInt();
                 if (price <= 100 && price > 0) {
                     price_sum[count] = price;
+                    // 0원과 100원 사이 가격
                 }
                 else if (price > 100) {
                     price = 0;
                     price_sum[count] = price;
                     System.out.println("100 초과 0원 적용");
+                    // 100원 초과 else if문
                 }
                 else if (price == 0){
                     price_sum[count] = price;
                     break;
+                    // 0원일때 배열에 추가 후 반복문 break
                 }
             }
             // 합계 담은 배열 총 계산
