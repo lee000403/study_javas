@@ -6,5 +6,5 @@
 | --- | --- | --- | --- |
 | Print | Main.java| 화면에 문자 출력 | |
 | If문 | Ifs.java | 조건문 | if () {} 형태 |
-| 데이터 타입 변환 | [TypeCasting.java]() | 데이터 타입 변경 | --- |
+| 데이터 타입 변환 | [TypeCasting.java](src/TypeCasting.java) | 데이터 타입 변경 | --- |
 ## JAVA 연습 문
