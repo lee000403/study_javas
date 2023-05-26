@@ -9,3 +9,6 @@
 | 데이터 타입 변환 | [TypeCasting.java]([src/TypeCasting.java](https://github.com/lee000403/study_javas/blob/master/src/TypeCasting.java)) | 데이터 타입 변경 | --- |
 | Break | [Breaks.java](./src/Breaks.java) | 루프 탈출 문법 | |
 ## JAVA 연습 문
+| 제목 | 작성소스 | 설명 | 비고 |
+| --- | --- | --- | --- |
+| CasherFor | [CasherFor.java](./src/CasherFor.java) | for문을 통해 가격 계산 |  |
