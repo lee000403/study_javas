@@ -30,6 +30,10 @@ public class PollsWhile {
                     System.out.println("------ 설문 종료 ------");
                     break;
                 }
+                else {
+                    System.out.println("잘못 입력하였습니다. 종료합니다.");
+                    break;
+                }
             }
         } catch (Exception e) {
             // TODO: handle exception
