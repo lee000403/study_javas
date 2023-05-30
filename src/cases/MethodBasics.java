@@ -7,10 +7,6 @@ public class MethodBasics {
         int result = x + 1; // 숫자 결과
         return result; 
     }
-    public int F_Y(int y) {
-        int result = y + 1;
-        return result;
-    }
     public static void main(String[] args) {
         try {
             int x = 4;
@@ -20,8 +16,8 @@ public class MethodBasics {
             // new : 클래스 전체를 가져온다.
             MethodBasics methodBasics = new MethodBasics(); // 맨 앞부분은 class 데이터 타입인것을 나타낸다.
             y = methodBasics.F(2);
-            MethodBasics methodBasics2 = new MethodBasics();
-            y = methodBasics2.F_Y(3);
+            MethodBasics methodBasics_first = new MethodBasics();
+            y = methodBasics_first.F(3);
             System.out.println(y);
         } catch (Exception e) {
         } finally {
