@@ -32,16 +32,16 @@ public class Methods {
             int second = 2;
             Methods methods = new Methods(); // 인스턴스화
             int result_add = methods.add(first, second); // add 함수 호출
-            result_add = result_add + methods.add(first, second); // result_add 값에 함수 add 값 추가
-            result_add = result_add + methods.add(first, second);
-            result_add = result_add + methods.add(first, second);
-            result_add = result_add + methods.add(first, second);
+            result_add = methods.add(first, second); // result_add 값에 함수 add 값 추가
+            result_add = methods.add(first, second);
+            result_add = methods.add(first, second);
+            result_add = methods.add(first, second);
             first = 1;
             second = 2;
             int result_sub = methods.sub(first, second); // sub 함수 호출
-            result_sub = result_sub + methods.sub(first, second); // result_sub 값에 함수 sub 값 추가
-            result_sub = result_sub + methods.sub(first, second);
-            int result = result_add + result_sub; // result_add = 20, result_sub = -3 값 계산
+            result_sub = methods.sub(first, second); // result_sub 값에 함수 sub 값 추가
+            result_sub = methods.sub(first, second);
+            int result = result_sub; // result_add = 20, result_sub = -3 값 계산
             System.out.println(result); // 17출력
         } catch (Exception e) {
         } finally {
