@@ -1,5 +1,5 @@
 package cases;
-import java.util.Scanner;;
+import java.util.Scanner;
 public class main1 {
     public static void main(String[] args) {
         // refer : https://www.acmicpc.net/problem/1000
