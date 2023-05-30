@@ -13,3 +13,4 @@
 | --- | --- | --- | --- |
 | WhileWithScanner | [WhileWithScanner](./src/PollsWhile.java)| while 문 사용 |  |
 | CasherFor | [CasherFor.java](./src/CasherFor.java) | for문을 통해 가격 계산 |  |
+|Methods|[Methods.java](./src/Methods.java) | 함수 표현 | |  
