@@ -28,14 +28,14 @@ public class Methods {
         // 초기 값은 2를 넘지 않음.
         // main 결과값은 17
         try {
-            Methods methods = new Methods();
-            int result_add = methods.add(2, 2);
+            Methods methods = new Methods(); // 인스턴스화
+            int result_add = methods.add(2, 2); // add 함수 호출
+            result_add = result_add + methods.add(2, 2); // result_add 값에 함수 add 값 추가
             result_add = result_add + methods.add(2, 2);
             result_add = result_add + methods.add(2, 2);
             result_add = result_add + methods.add(2, 2);
-            result_add = result_add + methods.add(2, 2);
-            int result_sub = methods.sub(1, 2);
-            result_sub = result_sub + methods.sub(1, 2);
+            int result_sub = methods.sub(1, 2); // sub 함수 호출
+            result_sub = result_sub + methods.sub(1, 2); // result_sub 값에 함수 sub 값 추가
             result_sub = result_sub + methods.sub(1, 2);
             int result = result_add + result_sub;
             System.out.println(result);
