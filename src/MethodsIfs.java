@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class MethodsIfs {
-    public String t(int time) { // if 문 function
+    public String timedate(int time) { // if 문 function
         String str = "";
         try {
             if (time < 12) {
@@ -28,7 +28,7 @@ public class MethodsIfs {
                 break;
             }
             MethodsIfs methodsIfs = new MethodsIfs();
-            String result = methodsIfs.t(time);
+            String result = methodsIfs.timedate(time);
             System.out.println(result);
 
         }
