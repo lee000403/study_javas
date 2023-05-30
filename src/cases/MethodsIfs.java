@@ -2,7 +2,7 @@ package cases;
 import java.util.Scanner;
 
 public class MethodsIfs {
-    public String t(int time) {
+    public String t(int time) { // if 문 function
         String str = "";
         try {
             if (time < 12) {
@@ -21,9 +21,9 @@ public class MethodsIfs {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (true) {
-            System.out.print("시간 입력 : ");
+            System.out.print("시간 입력 : "); // 시간 입력 받음
             int time = in.nextInt();
-            if (time == 0) {
+            if (time == 0) { // 0 입력시 종료
                 System.out.println("종료 합니다.");
                 break;
             }
