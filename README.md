@@ -11,4 +11,5 @@
 ## JAVA 연습 문
 | 제목 | 작성소스 | 설명 | 비고 |
 | --- | --- | --- | --- |
+| WhileWithScanner | [WhileWithScanner](./src/PollsWhile.java)| while 문 사용 |  |
 | CasherFor | [CasherFor.java](./src/CasherFor.java) | for문을 통해 가격 계산 |  |
