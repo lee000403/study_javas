@@ -11,7 +11,7 @@ public class main1 {
             System.out.println(">");
         }
         else if (num < num1) {
-            System.out.println(">");
+            System.out.println("<");
         } 
         else{
             System.out.println("==");
