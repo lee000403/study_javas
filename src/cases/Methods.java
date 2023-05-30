@@ -37,8 +37,8 @@ public class Methods {
             int result_sub = methods.sub(1, 2); // sub 함수 호출
             result_sub = result_sub + methods.sub(1, 2); // result_sub 값에 함수 sub 값 추가
             result_sub = result_sub + methods.sub(1, 2);
-            int result = result_add + result_sub;
-            System.out.println(result);
+            int result = result_add + result_sub; // result_add = 20, result_sub = -3 값 계산
+            System.out.println(result); // 17출력
         } catch (Exception e) {
         } finally {
 
