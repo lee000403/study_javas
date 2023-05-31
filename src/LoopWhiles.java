@@ -1,4 +1,4 @@
-package cases;
+
 public class LoopWhiles {
     public static void main(String[] args) {
         // while (condition) {

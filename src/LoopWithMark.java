@@ -1,4 +1,4 @@
-package cases;
+
 
 public class LoopWithMark {
     public static void main(String[] args) {

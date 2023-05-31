@@ -1,4 +1,4 @@
-package cases;
+
 
 public class MethodsSwichs {
     public String today(int day) {

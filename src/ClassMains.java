@@ -1,4 +1,4 @@
-package cases;
+import cases.ClassSeconds;
 
 public class ClassMains {
     public static void main(String[] args) {
@@ -7,6 +7,7 @@ public class ClassMains {
             ClassFirsts classFirstsWithVar = new ClassFirsts(5); // 생성자 괄호안에 first를 넣으면 2번째 함수를 불러온다.
             int second = classFirstsWithVar.getSecond();
             System.out.println();
+            new ClassSeconds(6);
         } catch (Exception e) {
             // TODO: handle exception
         }

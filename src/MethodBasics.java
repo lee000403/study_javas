@@ -1,4 +1,4 @@
-package cases;
+
 
 public class MethodBasics {
     // <access_modifier> <return_type> <method_name>( list_of_parameters)

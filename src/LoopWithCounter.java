@@ -1,4 +1,4 @@
-package cases;
+
 public class LoopWithCounter {
     public static void main(String[] args) {
         int num = 1;

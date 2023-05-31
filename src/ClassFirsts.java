@@ -1,4 +1,4 @@
-package cases;
+
 
 public class ClassFirsts {
     public int second = 0;

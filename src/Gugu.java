@@ -1,4 +1,4 @@
-package cases;
+
 public class Gugu {
     public static void main(String[] args) {
         int num = 2; // 단수

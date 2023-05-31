@@ -1,4 +1,4 @@
-package cases;
+
 public class SetAndGetVariable {
     public static void main(String[] args) {
         int a = 1;

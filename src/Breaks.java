@@ -1,4 +1,4 @@
-package cases;
+
 public class Breaks {
     public static void main(String[] args) {
             try {

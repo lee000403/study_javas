@@ -1,4 +1,4 @@
-package cases;
+
 public class MakingGamebyOneHand {
     public static void main(String[] args) {
         String a = "1";
