@@ -29,7 +29,6 @@ public class MethodsIfs {
             MethodsIfs methodsIfs = new MethodsIfs();
             String result = methodsIfs.timedate(time);
             System.out.println(result);
-
         }
         
         
