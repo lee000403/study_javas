@@ -5,9 +5,11 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MedicalCheckupWithoutDB {
-    public ArrayList ListMedic() {
+    public ArrayList ListMedic() { // 함수
+        // 인스턴스화
         ArrayList <HashMap>medical_List = new ArrayList<HashMap>();
         HashMap <String, Object>member_info = new HashMap<String, Object>();
+        // 첫번째 row
         member_info.put("이름", "홍길동");
         member_info.put("성별", "남");
         member_info.put("나이", 30);
@@ -18,6 +20,7 @@ public class MedicalCheckupWithoutDB {
         member_info.put("유지 방안", null);
         medical_List.add(member_info);
 
+        // 두번째 row
         member_info = new HashMap<String, Object>();
         member_info.put("이름", "김영희");
         member_info.put("성별", "여");
@@ -29,6 +32,7 @@ public class MedicalCheckupWithoutDB {
         member_info.put("유지 방안", null);
         medical_List.add(member_info);
 
+        // 세번째 row
         member_info = new HashMap<String, Object>();
         member_info.put("이름", "박철수");
         member_info.put("성별", "남");
@@ -40,6 +44,7 @@ public class MedicalCheckupWithoutDB {
         member_info.put("유지 방안", "식습관 개선, 운동 계획");
         medical_List.add(member_info);
 
+        // 네번째 row
         member_info = new HashMap<String, Object>();
         member_info.put("이름", "이지은");
         member_info.put("성별", "여");
@@ -51,6 +56,7 @@ public class MedicalCheckupWithoutDB {
         member_info.put("유지 방안", null);
         medical_List.add(member_info);
 
+        // 다섯번째 row
         member_info = new HashMap<String, Object>();
         member_info.put("이름", "최민호");
         member_info.put("성별", "남");
@@ -62,6 +68,7 @@ public class MedicalCheckupWithoutDB {
         member_info.put("유지 방안", null);
         medical_List.add(member_info);
 
+        // for-each 사용해서 출력
         for (HashMap member_medic : medical_List) {
             System.out.println(member_medic.get("이름") + " " + member_medic.get("성별") + " " + member_medic.get("나이") + " " + member_medic.get("키 (cm), 체중 (kg)") +
             " " + member_medic.get("혈압 (mmHg), 혈당 (mg/dL)") + " " + member_medic.get("검진 결과") + " " +  member_medic.get("재검진 항목") + " " +  member_medic.get("유지 방안"));
@@ -72,8 +79,9 @@ public class MedicalCheckupWithoutDB {
     }
     public static void main(String[] args) {
         try {
+            // 인스턴스화
             MedicalCheckupWithoutDB medicalCheckupWithoutDB = new MedicalCheckupWithoutDB();
-            ArrayList medical_list = medicalCheckupWithoutDB.ListMedic();
+            ArrayList medical_list = medicalCheckupWithoutDB.ListMedic(); // 함수 호출
         } catch (Exception e) {
             // TODO: handle exception
         }
