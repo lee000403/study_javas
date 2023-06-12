@@ -36,7 +36,7 @@ public class ConnectDBs {
             */
             String companyId = "CAR-01";
             String company = "AUDI" ;
-            query = "INSERT IGNORE INTO factorys " +
+            query = "INSERT IGNORE INTO factorys " + // 중복 에러 발생으로 IGNORE 사용(구글링..)
                     "(COMPANY_ID, COMPANY) " +
                     " VALUE " +
                     "('"+companyId+"', '"+company+"') ";
