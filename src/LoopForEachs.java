@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 
-public class LoopFors {
+public class LoopForEachs {
             // for (type variableName : arrayName) {
             //     // code block to be executed
             //   }
